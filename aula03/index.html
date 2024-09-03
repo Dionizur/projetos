@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="valores">Insira ods valores desejados:</label><br><br>
+    <label>valor 1:</label>
+    <input type="text" id="valor1" name="valor_1"><br>
+    <label>valor 2:</label>
+    <input type="text" id="valor2" name="valor_2"><br><br>
+
+    <script>
+        
+         const valor1 = document.getElementById('valor1').value;
+         const valor2 = document.getElementById('valor2').value;
+        var result= valor1 + valor2
+    
+        document.write("Resultado: " + result);
+
+    </script>
+    
+</body>
+</html>
